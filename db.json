@@ -1,0 +1,32 @@
+{
+  "teachers": [
+    {
+      "id": "1",
+      "name": "Jasur",
+      "surname": "Ergashev",
+      "group": "Ielts Foundation"
+      
+    },
+    {
+      "id": "2",
+      "name": "Saodat",
+      "surname": "Ikromova",
+      "group": "Gneral English"
+    }
+  ],
+
+  "studenst":[
+     {
+      "id": "1",
+      "name": "Abbosbek",
+      "surname": "Nasriddinov",
+      "group": "Ielts Foundation"
+    },
+    {
+      "id": "2",
+      "name": "Xurshidbek",
+      "surname": "Ergashev",
+      "group": "General English"
+    }
+  ]
+}

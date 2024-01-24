@@ -1,0 +1,65 @@
+@import'../../scss/main.scss';
+
+.loginpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 75%;
+
+    // border: $border;
+    .login {
+        width: 400px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+        input {
+            display: flex;
+            width: 298px;
+            padding: 11px 16px;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 4px;
+            border: 2px solid var(--Grayish-Blue, #D1ECFD);
+            background: var(--Off-white, #F5F5F5);
+            background-color: white;
+            outline: none;
+            color: var(--Desaturated-Blue, #7676B2);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+            /* 22.4px */
+            letter-spacing: 0.14px;
+
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        button {
+            display: inline-flex;
+            padding: 25px 90px;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            border-radius: 12px;
+            border: 6px solid #94B3FF;
+            background: var(--Soft-Blue, #5468E7);
+            color: var(--Off-White, #F5F5F5);
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                text-transform: capitalize;
+        }
+    }
+}

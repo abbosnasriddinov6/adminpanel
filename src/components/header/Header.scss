@@ -1,0 +1,188 @@
+@import'../../scss/main.scss';
+
+.header {
+    display: flex;
+    width: 15%;
+    height: 100%;
+    // border: $border;
+
+    .nav1 {
+
+        width: 80%;
+        height: 100%;
+        // border: $border;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+        .nav2 {
+            display: flex;
+            @include center();
+            width: 100%;
+            height: 20%;
+            // border: $border;
+
+            button {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                @include center();
+                background-color: white;
+                border: none;
+
+                img {
+                    width: 35%;
+                }
+            }
+        }
+
+        .icons {
+            display: flex;
+            @include center();
+            flex-direction: column;
+            gap: 15px;
+            width: 100%;
+            height: 35%;
+            // border: $border;
+
+            img {
+                width: 150px;
+                height: 60px;
+            }
+        }
+    }
+
+    .sidebar {
+        width: 100%;
+        height: 100%;
+        // border: $border;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // border: $border;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+        .logo {
+            display: flex;
+            // @include center();
+            justify-content: center;
+            width: 100%;
+            height: 20%;
+            
+            // border: $border;
+            .button-outside {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 48px;
+                width: 200px;
+
+                button {
+
+                    width: 250px;
+                    // height: 100px;
+                    display: flex;
+                    @include center();
+                    // background-color: white;
+                    background: transparent;
+                    border: none;
+
+                    // border: $border;
+                    img {
+                        width: 45%;
+                        background: transparent;
+                    }
+                }
+            }
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 15px;
+            width: 100%;
+            height: 35%;
+            // border: $border;
+
+
+            .all-links {
+                // margin-top: 60px;
+                display: flex;
+                flex-wrap: wrap;
+                width: 200px;
+                height: 228px;
+                // border: $border;
+
+                .profile {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    // border: $border;
+
+                    img {
+                        margin-right: 5px;
+                        // margin-left: 15.5px;
+                        // border: $border;
+                        // width: 155px;
+                        height: 60px;
+                    }
+
+                    h4 {
+                        // border: $border;
+                        font-size: 16px;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+
+                .teacher {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    // border: $border;
+
+                    img {
+                        // margin-right: 8px;
+                        margin-left: 15.5px;
+                        // border: $border;
+                        // width: 155px;
+                        height: 60px;
+                    }
+
+                    h4 {
+                        // border: $border;
+                        font-size: 16px;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+
+                .student {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    // border: $border;
+
+                    img {
+                        margin-bottom: 1px;
+                        margin-left: 15.9px;
+                        // border: $border;
+                        // width: 155px;
+                        height: 60px;
+                    }
+
+                    h4 {
+                        // border: $border;
+                        font-size: 16px;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+            }
+
+
+
+        }
+
+    }
+}
