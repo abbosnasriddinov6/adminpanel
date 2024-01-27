@@ -5,6 +5,8 @@ import Login from './components/login/Login'
 import Teachers from './components/teachers/Teachers'
 import Students from './components/students/Students'
 import Profile from './components/profile/Profile'
+import Addstudent from './components/addstudent/Addstudent'
+import Addteacher from './components/addTeacher/Addteacher'
 
 
 const App = () => {
@@ -27,6 +29,8 @@ const App = () => {
               <Route path='teachers' element={<Teachers />} />
               <Route path='students' element={<Students />} />
               <Route path='profile' element={<Profile setname={setname} name={name} />} />
+              <Route path='student' element={<Addstudent />} />
+              <Route path='teacher' element={<Addteacher />} />
             </Routes>
           </div>
         </div>

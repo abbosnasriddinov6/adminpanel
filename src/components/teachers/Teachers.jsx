@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import './Teachers.scss'
-
+import { deletee, edit } from '../../assets'
+import axios from 'axios'
+import 'axios'
+import { NavLink } from 'react-router-dom'
 const Teachers = () => {
   const [teachers, setTeachers] = useState([])
 
@@ -18,10 +21,20 @@ const Teachers = () => {
     fetchTeacher();
   }, [])
 
- 
+  const deleteFunction = (id) => {
+    if (confirm("Are you sure !!! do you want to delete ? ")) {
+      try {
+        axios.delete(`http://localhost:3000/teachers/${id}`)
+        fetchTeacher();
+      } catch (error) {
+        console.log(error);
+      }
+    }
+  }  
+
 
   return (
-    
+
     <>
       <div className='teachers'>
         <div className='searchandfilter'>
@@ -30,7 +43,7 @@ const Teachers = () => {
             <option value="Ielts Foundation">Ielts Foundation</option>
             <option value="General English">General English</option>
           </select>
-          
+
           <input type="text" placeholder='Search . . .' />
         </div>
         <div className='data'>
@@ -47,13 +60,20 @@ const Teachers = () => {
                 <h3>{teacher.name}</h3>
                 <h3>{teacher.surname}</h3>
                 <h3>{teacher.group}</h3>
+                <div className='editanddelete'>
+                  <button><img src={edit} alt="chiq" /></button>
+                  <button onClick={() => deleteFunction(teacher.id)}><img src={deletee} alt="chiq" /></button>
+                </div>
               </div>
             </div>
           ))}
         </div>
+        <div className='add'>
+          <NavLink to='/teacher'><button>Add student</button></NavLink>
+        </div>
       </div>
     </>
-    
+
   )
 }
 

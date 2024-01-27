@@ -2,30 +2,92 @@
   "teachers": [
     {
       "id": "1",
-      "name": "Jasur",
+      "name": "Xurshidbek",
       "surname": "Ergashev",
-      "group": "Ielts Foundation"
-      
-    },
-    {
-      "id": "2",
-      "name": "Saodat",
-      "surname": "Ikromova",
-      "group": "Gneral English"
-    }
-  ],
-
-  "studenst":[
-     {
-      "id": "1",
-      "name": "Abbosbek",
-      "surname": "Nasriddinov",
       "group": "Ielts Foundation"
     },
     {
       "id": "2",
       "name": "Xurshidbek",
       "surname": "Ergashev",
+      "group": "General English"
+    },
+    {
+      "id": "3",
+      "name": "Xurshidbek",
+      "surname": "Ergashev",
+      "group": "Frontend"
+    },
+    {
+      "id": "4",
+      "name": "Xurshidbek",
+      "surname": "Ergashev",
+      "group": "General English"
+    },
+    {
+      "id": "5",
+      "name": "Xurshidbek",
+      "surname": "Ergashev",
+      "group": "Frontend"
+    },
+    {
+      "0": {
+        "name": "",
+        "surname": "",
+        "group": ""
+      },
+      "id": "7d30",
+      "name": "Abbosbek",
+      "surname": "Nasriddinov",
+      "group": "Both of them"
+    }
+  ],
+  "studenst": [
+    {
+      "id": "1",
+      "name": "Xurshidbek",
+      "surname": "Ergashev",
+      "group": "Ielts Foundation"
+    },
+    {
+      "id": "2",
+      "name": "Xurshidbek",
+      "surname": "Ergashev",
+      "group": "General English"
+    },
+    {
+      "id": "3",
+      "name": "Xurshidbek",
+      "surname": "Ergashev",
+      "group": "Frontend"
+    },
+    {
+      "id": "4",
+      "name": "Xurshidbek",
+      "surname": "Ergashev",
+      "group": "Ielts Foundation"
+    },
+    {
+      "id": "5",
+      "name": "Xurshidbek",
+      "surname": "Ergashev",
+      "group": "General English"
+    },
+    {
+      "id": "6",
+      "name": "Xurshidbek",
+      "surname": "Ergashev",
+      "group": "Frontend"
+    },
+    {
+      "0": {
+        "name": "",
+        "surname": "",
+        "group": ""
+      },
+      "id": "a074",
+      "name": "Abbosbek",
+      "surname": "Nasriddinov",
       "group": "General English"
     }
   ]
